@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+#allParents{
+    width: 1180px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+#head{
+    background-color: white;
+}
+#searchBar{
+    height: 134px;
+    width: 1180px;
+    background-color: white;
+    position: static;
+    z-index: 99;
+}
+#topBar{
+    height: 26px;
+}
+#title{
+    font-size: 11px;
+    color: #9a9791;
+    margin: 1em 0 0 0;
+    display: inline;
+    float: left;
+    line-height: 1em;
+}
+#topBar>a{
+    margin: 7px 9px 0 9px;
+    width: 19px;
+    height: 19px;
+    float: right;
+}
+#topBar a:link{
+    text-decoration: none;
+}
+#topBar>a image{
+    float: left;
+}
+#topBar>span{
+    font-size: 11px;
+    color: #9a9791;
+    margin: 1em 9px 0 9px;
+    float: right;
+    line-height: 1em;
+}
+#topBar span img{
+    float: left;
+    margin-right: 6px;
+}
+#order{
+    margin-top: -2px;
+}
+#tp-my-phone{
+    margin-top: -2px;
+}
+#shoppingCart{
+    margin-top: -4px;
+}
+#topBar span a{
+    font-size: 11px;
+    color: #9a9791;
+    float: left;
+}
+.loginAndRegistered{
+    cursor: pointer;
+}
+#num{
+    font-size: 9px;
+    color: #ff4d04;
+    float: left;
+    margin-top: 1px;
+    margin-left: 7px;
+}
+#logo{
+    margin-top: 18px;
+    float: left;
+}
+#search{
+    display: inline-block;
+    border: 3px solid #ff4d04;
+    background-color: #ff4d04;
+    border-radius: 2px;
+    width: 577px;
+    height: 34px;
+    margin-left: 108px;
+    margin-top: 31px;
+}
+#search input{
+    border-width: 0;
+    outline: none;
+    display: inline-block;
+}
+#searchText{
+    width: 497px;
+    height: 34px;
+    background-color: white;
+    font-size: 12px;
+}
+#searchButton{
+    width: 80px;
+    height: 34px;
+    cursor: pointer;
+    background-color: #ff4d04;
+    color: white;
+    margin-left: -5px;
+}
+#searchButton:active{
+    background-color: rgba(254, 108, 0 ,50);
+}
+#worry{
+    float: right;
+    margin-top: 31px;
+}
+#worry div{
+    width: 84px;
+    height: 38px;
+    border: 1px solid #e6e5e2;
+    border-radius: 2px;
+    display: inline-block;
+    float: left;
+}
+#webTel img{
+    display: block;
+    margin: 6px auto 4px auto;
+}
+#webTel p{
+    font-size: 12px;
+    text-align: center;
+    color: #9a9791;
+    line-height: 1em;
+}
+#webEmail img{
+    display: block;
+    margin: 6px auto 6px auto;
+}
+#webEmail p{
+    font-size: 12px;
+    text-align: center;
+    color: #9a9791;
+    line-height: 1em;
+}
+#usualWorry{
+    background-color: #ff4d04;
+    cursor: pointer;
+}
+#usualWorry img{
+    margin: 13px 3px 0 10px;
+    line-height: 1em;
+    display: block;
+    float: left;
+}
+#usualWorry span{
+    margin-top: 13px;
+    color: white;
+    font-size: 12px;
+    line-height: 1em;
+    display: block;
+    float: left;
+}
+#recommend{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 253px;
+    display: block;
+    height: 16.4px;
+}
+#recommend li{
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 11px;
+    float: left;
+}
+#recommend a:link{
+    text-decoration: none;
+}
+#recommend a{
+    font-size: 11px;
+    line-height: 1em;
+}
+.noEnd{
+    border-right: 1px solid #ebe7e7;
+}
+.reComColorA{
+    color: red;
+}
+.reComColorB{
+    color: #666560;
+}
+.reComColorC{
+    color: #c0a9d6;
+}
+#navigation{
+    width: 1180px;
+    height: 40px;
+    background-color: #333333;
+}
+#navigation ul{
+    margin-left: 85px;
+    list-style: none;
+}
+#navigation li{
+    display: block;
+    float: left;
+}
+#navigation li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 14px 37px;
+}
+#wayCatalog{
+    margin: 14px 0;
+}
+#wayCatalog a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+#productDetails{
+    float: left;
+    height: 631px;
+    width: 994px;
+    background-color: white;
+}
+#productDetails>div{
+    float: left;
+    width: 430px
+}
+#imagePlatform{
+    width: 408px;
+    height: 408px;
+    border: 1px solid #d0cdc7;
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+#imagePlatform img{
+    display: block;
+}
+#imagePlatform div{
+    width: 102px;
+    height: 102px;
+    position: relative;
+    top: -408px;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+}
+#beBig{
+    width: 408px;
+    height: 408px;
+    border: 1px solid #d0cdc7;
+    position: relative;
+    z-index: 98;
+    top: -410px;
+    left: -410px;
+    opacity: 0;
+    overflow: hidden;
+    background: white;
+}
+#beBig img{
+    width: 200%;
+    height: 200%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+#imageList{
+    margin-left: 20px;
+    margin-top: -384px;
+}
+#imageList>img{
+    float: left;
+}
+#imageList ul{
+    list-style: none;
+    float: left;
+    display: block;
+    width: 360px;
+}
+#imageList li{
+    display: block;
+    width: 55px;
+    height: 55px;
+    float: left;
+    border: 2px solid white;
+}
+
+#productDetails>form{
+    float: left;
+    margin-left: 20px;
+    width: 500px;
+}
+#commodityTitle{
+    font-size: 16px;
+}
+#commodityIntroduction{
+    font-size: 12px;
+    color: #676660;
+    width: 464px;
+    margin-top: 7px;
+    line-height: 2em;
+}
+#commodityPrice{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 29px;
+}
+#nowPrice{
+    font-size: 16px;
+    color: red;
+    margin-left: 53px;
+}
+#agoPrice{
+    margin-left: 22px;
+}
+#commodityShip{
+    margin-left: 20px;
+    margin-top: 19px;
+    font-size: 12px;
+}
+#commodityWay{
+    margin-left: 18px;
+}
+#commodityTimes{
+    margin-left: 17px;
+}
+#commodityVip{
+    padding: 17px 0 5px 20px;
+    margin-top: 11px;
+    background-color: #f7f6f5;
+}
+#commoditySize{
+    margin-top: 24px;
+    margin-left: 20px;
+    height: 28px;
+    margin-bottom: 20px;
+}
+.rightDown{
+    position: relative;
+    z-index: 97;
+    top: -13px;
+    float: right;
+}
+#commoditySize>span{
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-right: 26px;
+}
+#commoditySize>ul{
+    list-style: none;
+    float: left;
+}
+#commoditySize li{
+    display: block;
+    float: left;
+}
+#commoditySize input{
+    display: block;
+    background-color: white;
+    border: 1px solid white;
+    padding: 0 13px;
+    height: 28px;
+    outline: none;
+    cursor: pointer;
+}
+#commodityNum{
+    font-size: 12px;
+    margin-left: 20px;
+}
+#commodityNum input{
+    outline: none;
+}
+#commodityOfNum{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 11px;
+    border: 1px solid #aca7a2;
+    margin: 0 -5px;
+}
+#commodityNumLess{
+    display: inline-block;
+    width: 27px;
+    text-align: center;
+    padding: 8.8px 0;
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid #cecbc5;
+    cursor: not-allowed;
+    margin-left: 62px;
+}
+#commodityNumAdd{
+    display: inline-block;
+    width: 27px;
+    text-align: center;
+    padding: 8.8px 0;
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid #cecbc5;
+    cursor: pointer;
+    margin-right: 23px;
+}
+#howManySold{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 19px;
+}
+#howManySold span{
+    color: #ff0259;
+    margin-left: 56px;
+    margin-right: -4px;
+    font-weight: bold;
+}
+#whatYouChange{
+    margin-left: 103px;
+    margin-top: 21px;
+    font-size: 13px;
+}
+#whatYouChange span{
+    font-size: 15px;
+    color: #ff9003;
+    margin-left: 13px;
+}
+#productDetails form>input{
+    outline: none;
+    height: 38px;
+    width: 148px;
+    border: 1px solid #ff0754;
+    border-radius: 4px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+#nowBuy{
+    margin-left: 20px;
+    background-color: white;
+    color: #ff0754;
+}
+#inShoppingCart{
+    margin-left: 19px;
+    background-color: #ff0754;
+    color: white;
+}
+
+#guideList {
+    list-style: none;
+    margin-left: 85px;
+    padding-top: 31px;
+    float: left;
+}
+#guideList>li{
+    float: left;
+    display: inline-block;
+    width: 130px;
+}
+#guideList ul{
+    list-style: none;
+}
+.guideLisTitle{
+    font-size: 17px;
+}
+.guideLisItem{
+    margin-top: 12px;
+}
+.guideLisItem a{
+    text-decoration: none;
+    color: #666560;
+    font-size: 11px;
+}
+#anotherList{
+    text-align: center;
+}
+#anotherList li{
+    display: inline-block;
+    padding: 2px 14px;
+    margin-top: 15px;
+}
+#anotherList a{
+    color: #666560;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#inShoppingCartIsOk{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(219, 217, 213, 0.5);
+    opacity: 0;
+}
+#complete{
+    width: 400px;
+    height: 220px;
+    background-color: white;
+    border: 4px solid #aca9d3;
+    position: relative;
+}
+#completeOut{
+    font-size: 12px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#complete button{
+    outline: none;
+    height: 38px;
+    width: 148px;
+    border: 1px solid #ff0754;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#continueShopping{
+    margin-left: 36px;
+    background-color: white;
+    color: #ff0754;
+}
+#goToPay{
+    margin-left: 23px;
+    background-color: #ff0754;
+    color: white;
+}

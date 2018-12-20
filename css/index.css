@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+#allParents{
+    width: 1180px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+#head{
+    border-bottom: 1px solid #fe6c00;
+    background-color: white;
+}
+#searchBar{
+    height: 134px;
+    width: 1180px;
+    background-color: white;
+    position: static;
+    z-index: 99;
+}
+#topBar{
+    height: 26px;
+}
+#title{
+    font-size: 11px;
+    color: #9a9791;
+    margin: 1em 0 0 0;
+    display: inline;
+    float: left;
+    line-height: 1em;
+}
+#topBar>a{
+    margin: 7px 9px 0 9px;
+    width: 19px;
+    height: 19px;
+    float: right;
+}
+#topBar a:link{
+    text-decoration: none;
+}
+#topBar>a image{
+    float: left;
+}
+#topBar>span{
+    font-size: 11px;
+    color: #9a9791;
+    margin: 1em 9px 0 9px;
+    float: right;
+    line-height: 1em;
+}
+#topBar span img{
+    float: left;
+    margin-right: 6px;
+}
+#order{
+    margin-top: -2px;
+}
+#tp-my-phone{
+    margin-top: -2px;
+}
+#shoppingCart{
+    margin-top: -4px;
+}
+#topBar span a{
+    font-size: 11px;
+    color: #9a9791;
+    float: left;
+}
+.loginAndRegistered{
+    cursor: pointer;
+}
+#num{
+    font-size: 9px;
+    color: #ff4d04;
+    float: left;
+    margin-top: 1px;
+    margin-left: 7px;
+}
+#logo{
+    margin-top: 18px;
+    float: left;
+}
+#search{
+    display: inline-block;
+    border: 3px solid #ff4d04;
+    background-color: #ff4d04;
+    border-radius: 2px;
+    width: 577px;
+    height: 34px;
+    margin-left: 108px;
+    margin-top: 31px;
+}
+#search input{
+    border-width: 0;
+    outline: none;
+    display: inline-block;
+}
+#searchText{
+    width: 497px;
+    height: 34px;
+    background-color: white;
+    font-size: 12px;
+}
+#searchButton{
+    width: 80px;
+    height: 34px;
+    cursor: pointer;
+    background-color: #ff4d04;
+    color: white;
+    margin-left: -5px;
+}
+#searchButton:active{
+    background-color: rgba(254, 108, 0 ,50);
+}
+#worry{
+    float: right;
+    margin-top: 31px;
+}
+#worry div{
+    width: 84px;
+    height: 38px;
+    border: 1px solid #e6e5e2;
+    border-radius: 2px;
+    display: inline-block;
+    float: left;
+}
+#webTel img{
+    display: block;
+    margin: 6px auto 4px auto;
+}
+#webTel p{
+    font-size: 12px;
+    text-align: center;
+    color: #9a9791;
+    line-height: 1em;
+}
+#webEmail img{
+    display: block;
+    margin: 6px auto 6px auto;
+}
+#webEmail p{
+    font-size: 12px;
+    text-align: center;
+    color: #9a9791;
+    line-height: 1em;
+}
+#usualWorry{
+    background-color: #ff4d04;
+    cursor: pointer;
+}
+#usualWorry img{
+    margin: 13px 3px 0 10px;
+    line-height: 1em;
+    display: block;
+    float: left;
+}
+#usualWorry span{
+    margin-top: 13px;
+    color: white;
+    font-size: 12px;
+    line-height: 1em;
+    display: block;
+    float: left;
+}
+#recommend{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 253px;
+    display: block;
+    height: 16.4px;
+}
+#recommend li{
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 11px;
+    float: left;
+}
+#recommend a:link{
+    text-decoration: none;
+}
+#recommend a{
+    font-size: 11px;
+    line-height: 1em;
+}
+.noEnd{
+    border-right: 1px solid #ebe7e7;
+}
+.reComColorA{
+    color: red;
+}
+.reComColorB{
+    color: #666560;
+}
+.reComColorC{
+    color: #c0a9d6;
+}
+#navigation{
+    display: inline-block;
+    margin-top: 14px;
+    margin-bottom: -2px;
+}
+#navigation li{
+    float: left;
+    display: inline-block;
+    font-size: 17px;
+}
+#navigationHeader{
+    color: white;
+    background-color: #ff4d04;
+    padding: 13px 36px;
+    margin-right: 31px;
+}
+.navigationBody a{
+    padding: 13px 27px;
+    display: inline-block;
+}
+.navigationBody a:link{
+    text-decoration: none;
+}
+.navigationBody a:visited{
+    color: black;
+}
+.navigationBody img{
+    position: relative;
+    left: -33px;
+    top: -5px;
+}
+
+#body{
+    background-color: white;
+    height: 548px;
+    overflow: hidden;
+}
+#body>div{
+    float: left;
+}
+#categories{
+    border-bottom: 1px solid #ff4d04;
+}
+#categoriesTitle{
+    width: 25px;
+    height: 422px;
+    background-color: #4c4c4a;
+    font-size: 14px;
+    color: #ff4d4b;
+    line-height: 24px;
+    text-align: center;
+    float: left;
+}
+#categoriesList{
+    list-style: none;
+    /*float: left;*/
+    margin-left: 25px;
+    width: 136px;
+    height: 420px;
+    font-size: 12px;
+    padding-left: 12px;
+    padding-top: 2px;
+}
+#categoriesList a{
+    display: inline-block;
+    margin: 13px 7px 7px 0;
+    color: black;
+}
+#categoriesList a:link{
+    text-decoration: none;
+}
+#whatIsBang5Mai{
+    width: 169px;
+    height: 122px;
+    padding-top: 2px;
+}
+#whatIsBang5Mai img{
+    display: inline-block;
+    float: left;
+    margin: 10px 11px 10px 7px;
+}
+#whatIsBang5Mai p{
+    color: #855d38;
+    font-size: 13px;
+    display: inline-block;
+    margin: 13px 0 17px 0;
+}
+#carouselMap{
+    border-right: 1px solid #fe6c00;
+    border-bottom: 2px solid #fe6c00;
+    overflow: hidden;
+    width: 800px;
+    height: 362px;
+}
+#carouselMapPhotoBar{
+    overflow: hidden;
+    width: 4900px;
+}
+#carouselMapPhotoBar a{
+    display: inline-block;
+    float: left;
+    position: relative;
+    z-index: 97;
+}
+#carouselMap button{
+    position: relative;
+    overflow: hidden;
+    z-index: 98;
+    height: 60px;
+    width: 60px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    outline: none;
+}
+#goPrevious{
+    left: 10px;
+    top: -210.5px;
+}
+#goNext{
+    left: 665px;
+    top: -210.5px;
+}
+#goNext img{
+    position: relative;
+    top: -60px;
+}
+#carouselMap ul{
+    position: relative;
+    left: 327.5px;
+    top: -150px;
+    z-index: 98;
+    width: 145px;
+}
+#carouselMap li{
+    display: inline-block;
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #e6e5e2;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+#advertising{
+    border-right: 1px solid #fe6c00;
+    height: 183px;
+}
+#advertising img{
+    float: left;
+}
+#newsletter{
+    width: 206px;
+    height: 364px;
+}
+#newsletterTitle{
+    height: 15px;
+    display: block;
+    color: #ff4d04;
+    padding: 14px 0;
+}
+#newsletterTitleIco{
+    margin-left: 21px;
+}
+#newsletterTitle span{
+    margin-left: 12px;
+}
+#newsletterTitleNext{
+    margin-left: 75px;
+}
+#newsletterTitle:link{
+    text-decoration: none;
+    color: #ff4d04;
+    font-size: 14px;
+}
+#newsletterList{
+    overflow: hidden;
+    height: 320px;
+    width: 206px;
+}
+#newsletterList ul{
+    list-style: none;
+    font-size: 12px;
+}
+#newsletterList li{
+    padding: 10px 0 7px 15px;
+    position: relative;
+    z-index: 1;
+}
+#newsletterList a{
+    color: #ff4d04;
+}
+#newsletterList a:link{
+    text-decoration: none;
+}
+#payTheCallFee{
+    height: 183px;
+    /*width: 206px;*/
+}
+#payTheCallFee img{
+    margin-left: 16px;
+    margin-top: 7px;
+    float: left;
+}
+#payTheCallFeeTitle{
+    font-size: 13px;
+    display: inline-block;
+    margin: 11px 0 12px 15px;
+}
+#phoneNumber{
+    margin-left: 16px;
+    margin-bottom: 6px;
+}
+#payTheCallFeePrompt{
+    font-size: 13px;
+    display: inline-block;
+    color: #ff4d04;
+}
+#howManyFee{
+    width: 59px;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 16px;
+}
+#callFee{
+    font-size: 10px;
+    color: #ff4d04;
+}
+#phoneButton{
+    background-color: #ff4d04;
+    outline: none;
+    cursor: pointer;
+    width: 175px;
+    height: 23px;
+    margin-top: 6px;
+    margin-left: 16px;
+    border: 1px solid #ff4d04;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+}
+#guideList {
+    list-style: none;
+    margin-left: 85px;
+    padding-top: 31px;
+    float: left;
+}
+#guideList>li{
+    float: left;
+    display: inline-block;
+    width: 130px;
+}
+#guideList ul{
+    list-style: none;
+}
+.guideLisTitle{
+    font-size: 17px;
+}
+.guideLisItem{
+    margin-top: 12px;
+}
+.guideLisItem a{
+    text-decoration: none;
+    color: #666560;
+    font-size: 11px;
+}
+#anotherList{
+    text-align: center;
+}
+#anotherList li{
+    display: inline-block;
+    padding: 2px 14px;
+    margin-top: 15px;
+}
+#anotherList a{
+    color: #666560;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+#sideBar{
+    width: 123px;
+    position: fixed;
+    z-index: 99;
+    top: 67px;
+    right: -80px;
+}
+#sideBar>div{
+    position: relative;
+    overflow: hidden;
+}
+#sideBar img{
+    display: block;
+}
+#sideBarAdvisory{
+    margin-bottom: 4px;
+}
+#sideBarCoupon{
+    margin-bottom: 3px;
+}
+#sideBarCoupon img{
+    float: left;
+}
+#sideBarCoupon div{
+    width: 63px;
+    margin-left: 60px;
+    height: 140px;
+    background-color: #fd9a6e;
+}
+#sideBarCoupon span{
+    font-size: 11px;
+    display: block;
+    padding-top: 52px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#sideBarCoupon button{
+    background-color: #fd9a6e;
+    border: 1px solid white;
+    padding: 3px 7px;
+    margin: 0 auto;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    color: white;
+}
+#QRCodeBlock{
+    float: left;
+    width: 63px;
+    height: 100px;
+    background-color: #fd9a6e;
+}
+#smallQRCode{
+    margin-top: 50px;
+    margin-left: 12px;
+    opacity: 1;
+}
+#bigQRCode{
+    margin-top: -69px;
+    margin-left: 12px;
+    opacity: 0;
+}
+#sideBarApp{
+    margin-bottom: 1px;
+}
+#sideBarApp>div{
+    height: 100px;
+    width: 123px;
+    background-color: #fd9a6e;
+}
