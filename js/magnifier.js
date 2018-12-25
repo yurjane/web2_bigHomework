@@ -27,6 +27,6 @@ function getMousePos(event) {
     var scrollY = document.documentElement.scrollTop || document.body.scrollTop;
     var x = e.pageX || e.clientX + scrollX;
     var y = e.pageY || e.clientY + scrollY;
-    imagePlatformImg.mouseX = x - (document.body.scrollWidth - 1180)/2 - 21;
-    imagePlatformImg.mouseY = y - 239;
+    imagePlatformImg.mouseX = x - imagePlatformImg.offsetLeft;
+    imagePlatformImg.mouseY = y - imagePlatformImg.offsetTop;
 }
