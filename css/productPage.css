@@ -200,7 +200,6 @@
     background-color: #333333;
 }
 #navigation ul{
-    margin-left: 85px;
     list-style: none;
 }
 #navigation li{
@@ -211,8 +210,11 @@
     display: block;
     color: white;
     text-decoration: none;
-    font-size: 11px;
-    padding: 14px 37px;
+    font-size: 12px;
+    padding: 14px 39px;
+}
+#navigation img{
+    float: right;
 }
 #wayCatalog{
     margin: 14px 0;

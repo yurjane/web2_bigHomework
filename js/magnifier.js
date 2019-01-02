@@ -2,6 +2,7 @@ var imagePlatformBar = document.getElementById("imagePlatform").getElementsByTag
 var imageBigBar = document.getElementById("beBig");
 var imagePlatform = document.getElementById("imagePlatform");
 var imagePlatformImg = document.getElementById("imagePlatform").getElementsByTagName("img")[0];
+var imageBig = imageBigBar.getElementsByTagName("img")[0];
 imagePlatformImg.mouseX = 0;
 imagePlatformImg.mouseY = 0;
 imagePlatform.onmouseenter = function(){
@@ -20,6 +21,22 @@ imagePlatform.onmousemove = function (event) {
     imageBig.style.top =  -parseFloat(imagePlatformImg.mouseY) + "px";
     imagePlatformBar.style.left = parseFloat(imagePlatformImg.mouseX) - 51 + "px";
     imagePlatformBar.style.top = -408 + parseFloat(imagePlatformImg.mouseY) - 51 + "px";
+    if(parseFloat(imagePlatformImg.mouseX) <= 51){
+        imageBig.style.left = "-51px";
+        imagePlatformBar.style.left = "0px";
+    }
+    if (parseFloat(imagePlatformImg.mouseX) >= 357){
+        imageBig.style.left = "-357px";
+        imagePlatformBar.style.left = "306px";
+    }
+    if (parseFloat(imagePlatformImg.mouseY) <= 51) {
+        imageBig.style.top = "-51px";
+        imagePlatformBar.style.top = "-408px";
+    }
+    if (parseFloat(imagePlatformImg.mouseY) >= 357) {
+        imageBig.style.top = "-357px";
+        imagePlatformBar.style.top = "-102px";
+    }
 };
 function getMousePos(event) {
     var e = event || window.event;
